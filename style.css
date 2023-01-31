@@ -1,0 +1,135 @@
+*{
+    background:#F3F5FC;
+    font-family: 'Offside', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+    
+}
+
+
+.logoOracle{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+.logoRedbull{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+    
+}
+
+.text-area {
+    text-align: start;
+    height: 400px;
+    border: solid;
+    border-radius: 25px;
+    color: #CC1C4A;
+    margin-top: 30px;
+    padding: 2px;
+    text-transform: lowercase;
+}
+
+::placeholder { 
+    color: #CC1C4A; }
+  .text-area:focus {
+      outline: none;
+    }
+
+.mensaje{
+    height: 630px;
+    background: none;
+    background-image: url("candado.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: solid;
+    border-radius: 24px;
+    color: #CC1C4A;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: #213872;
+    border: 1px solid #0B162F;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    transition: all;
+    cursor:pointer;
+}
+
+.btn-desencriptar:hover{
+    background: #FACD34;
+    transform: scale(.8);
+}
+
+.btn-encriptar {
+    background-color: #CC1C4A;
+    border: 1px solid #0B162F;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    transition: all;
+    cursor:pointer;
+}
+
+.btn-encriptar:hover{
+    background: #FACD34;
+    transform: scale(.8);
+}
+
+.copiar {
+    background-color: #FACD34;
+    border: 1px solid #0B162F;
+    border-radius: 24px;
+    color: #0B162F;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 565px;
+    position: absolute;
+    width: 336px;
+}
+
+.copiar:hover{
+    background: #FACD34;
+    transform: scale(.8);
+}
+
+.informacion {
+    color: #213872;
+    font-size:18px;
+}
+
+.copyright{
+    color:#213872;
+    font-size: 13px;
+    margin:20px;
+}

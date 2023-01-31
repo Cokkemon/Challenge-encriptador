@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Offside&display=swap" rel="stylesheet">
+    <title>Challenge Encriptador</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logoOracle" src="oracle.png" alt="logo de Oracle">
+            <img class="logoRedbull" src="redbull.png" alt="logo de RedBull">
+        </div>
+    </header>
+    <main>
+        <section>
+        <div>
+            <textarea class="text-area" cols="30" rows="10" placeholder="
+            Ingrese aquí el mensaje a encriptar, el resto de los equipos nunca descubrirán nuestra estrategia."></textarea>
+            <span>&#160;</span></h1>
+        </div>
+            <div>
+                <h6 class="informacion">&#128389; Solo se admiten letras minúsculas sin acentos &#128389;</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" id="candado" cols="20" rows="10"></textarea>
+            <div>
+                <button class="copiar" onclick="btnCopiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+<script src="script.js"></script>
+</body>
+<footer>
+    <p class="copyright">&copy Copyright Encriptador de Texto Allura - By Cokkemon - 2023</p>
+</footer>
+</html>
