@@ -8,6 +8,9 @@
     
 }
 
+header {
+    padding: 20px 0;
+}
 
 .logoOracle{
     padding-top: 10px;
@@ -58,7 +61,7 @@ main{
     margin-left: 98px;
     margin-top: 20px;
     padding-left: 20px;
-    position: fixed;
+    position: absolute;
 }
 
 .mensaje:focus {
@@ -112,9 +115,9 @@ main{
     color: #0B162F;
     cursor: pointer;
     height: 67px;
-    margin-left: 120px;
+    margin-left: 165px;
     margin-top: 565px;
-    position: absolute;
+    position: relative;
     width: 336px;
 }
 
@@ -132,4 +135,70 @@ main{
     color:#213872;
     font-size: 13px;
     margin:20px;
+}
+
+@media screen and (max-width:480px){
+    .header{
+        position: relative;
+    }
+
+    main{
+        display: inline-block;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    .text-area{
+        position: relative;
+        margin: 0 0 0 0;
+        height: 200px;
+        width: 360px;
+        font-size: small;
+        text-align: justify;
+    }
+
+    .mensaje{
+        position: relative;
+        margin: 0 0 0 0;
+        height: 630px;
+        width: 345px;
+        font-size: small;
+        text-align: justify;
+    }
+
+    .informacion {
+        color: #213872;
+        font-size: x-small;
+        text-align: justify;
+        margin-top: 1px;
+    }
+
+    .botones{
+        display: flex;
+        width: auto;
+        position: relative;
+        margin: 0 0 30px 30px;
+    }
+
+    .btn-encriptar {
+        height: 45px;
+        width: 140px;
+        font-size: medium;
+    }
+
+    .btn-desencriptar{
+        height: 45px;
+        width: 140px;
+        font-size: medium;
+    }
+
+    .copyright{
+        font-size: xx-small;
+    }
+
+    .copiar {
+       height: 45px;
+       width: 140px;
+       font-size: medium;
+    }
 }
