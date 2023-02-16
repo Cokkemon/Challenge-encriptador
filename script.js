@@ -3,6 +3,9 @@ const mensaje = document.querySelector(".mensaje");
 const copia = document.querySelector(".copiar");
 copia.style.display = "none"
 
+window.onload = function() {
+    document.getElementById("foco").focus();
+  }
 
 function validarTexto(){
     let textoEscrito = document.querySelector(".text-area").value;
