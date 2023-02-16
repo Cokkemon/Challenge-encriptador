@@ -195,8 +195,10 @@ main{
     }
 
     .copiar {
-       height: 45px;
+        height: 45px;
        width: 140px;
        font-size: medium;
+       position: relative;
+       margin-top: -100px;
     }
 }
